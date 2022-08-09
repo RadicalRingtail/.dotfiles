@@ -1,0 +1,6 @@
+[user]
+	email = 29079415+RadicalRingtail@users.noreply.github.com
+	name = Ringtail
+[core]
+	excludesFile = .DS_Store
+	editor = codium --wait
