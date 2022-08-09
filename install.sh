@@ -1,11 +1,12 @@
 #!/bin/sh
 
-# currently a wip
+# install xcode tools
+xcode-select --install
 
-# run defaults.sh
+# update preferences
 /bin/bash ./defaults.sh
 
-# creates hustlogin file
+# silence zsh login message
 touch ~/.hushlogin
 
 # symlinks
@@ -16,5 +17,7 @@ ln -s ~/.dotfiles/yt-dlp/yt-dlp.conf ~/yt-dlp.conf
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install packages via homebrew from Brewfile
+# install packages from Brewfile
 brew bundle install ~/.dotfiles/Brewfile
+
+#todo: auto install jetbrains mono/mono nerd font
