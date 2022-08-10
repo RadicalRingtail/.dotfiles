@@ -3,8 +3,12 @@
 # install xcode tools
 xcode-select --install
 
-# install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# check if homebrew is installed
+# if not, install homebrew
+if ! command -v brew &> /dev/null 
+then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 # install packages from Brewfile
 brew bundle install ~/.dotfiles/Brewfile
