@@ -15,7 +15,6 @@ brew "zsh"
 brew "yt-dlp/taps/yt-dlp"
 cask "cscreen"
 cask "vscodium"
-# extra stuff i added manually
 cask "tiles"
 cask "firefox"
 cask "discord"
