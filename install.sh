@@ -13,7 +13,7 @@ fi
 # install packages from Brewfile
 brew bundle install ~/.dotfiles/Brewfile
 
-#todo: auto install jetbrains mono/mono nerd font
+# todo: auto install jetbrains mono/mono nerd font
 
 # update preferences
 /bin/bash ./scripts/defaults.sh
@@ -26,6 +26,7 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/yt-dlp/yt-dlp.conf ~/yt-dlp.conf
 ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
+ln -s ~/.dotfiles/kitty/theme.conf ~/.config/kitty/theme.conf
 
 # configure vscode
 /bin/bash ./scripts/codium_config.sh

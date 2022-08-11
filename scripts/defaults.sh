@@ -27,3 +27,11 @@ duti -s com.visualstudio.code.oss .md all
 duti -s com.foobar2000.mac .mp3 all
 duti -s com.foobar2000.mac .wav all
 duti -s com.foobar2000.mac .flac all
+
+duti -s org.videolan.vlc .mp4 all
+duti -s org.videolan.vlc .mkv all
+duti -s org.videolan.vlc .mov all
+duti -s org.videolan.vlc .avi all
+duti -s org.videolan.vlc .webm all
+
+duti -s cx.c3.theunarchiver .rar all
