@@ -25,6 +25,7 @@ touch ~/.hushlogin
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/yt-dlp/yt-dlp.conf ~/yt-dlp.conf
+ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
 # configure vscode
 /bin/bash ./scripts/codium_config.sh
