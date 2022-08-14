@@ -19,8 +19,10 @@ defaults write com.apple.Finder "FXEnableExtensionChangeWarning" -bool "false"
 #open theme.terminal
 #defaults write com.apple.Terminal "Default Window Settings" -string "theme"
 
-# set default apps with duti
+# set default apps with duti and default browser with defaultbrowser
 # this could probably be made more effecient with a for loop or something
+defaultbrowser firefox
+
 duti -s com.visualstudio.code.oss .sh all
 duti -s com.visualstudio.code.oss .md all
 
