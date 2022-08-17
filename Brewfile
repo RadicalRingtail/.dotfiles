@@ -10,6 +10,8 @@ brew "git"
 brew "htop"
 brew "node", link: false
 brew "python@3.10"
+brew "rust"
+brew "gcc"
 brew "qemu"
 brew "zsh"
 brew "duti"
