@@ -29,4 +29,4 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/yt-dlp/yt-dlp.conf ~/yt-dlp.conf
 ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
-ln -s ~/.dotfiles/kitty/theme.conf ~/.config/kitty/theme.conf
+ln -s ~/.dotfiles/kitty/themes/vs_theme.conf ~/.config/kitty/vs_theme.conf
