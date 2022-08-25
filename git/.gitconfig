@@ -4,3 +4,5 @@
 [core]
 	excludesFile = .DS_Store
 	editor = codium --wait
+[init]
+	defaultBranch = master

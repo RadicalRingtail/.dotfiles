@@ -5,12 +5,12 @@ A personal repo for all my dotfiles and configurations.
 # Setup
 
 Clone the github repo to your home directory
-```
+```zsh
 git clone https://github.com/RadicalRingtail/.dotfiles ~/.dotfiles
 ```
 
 Then, navigate to the dotfiles directory and run ``install.sh``
-```
+```zsh
 cd ~/.dotfiles
 /bin/bash install.sh 
 ``` 
