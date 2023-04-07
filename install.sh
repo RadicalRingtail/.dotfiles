@@ -16,8 +16,6 @@ brew bundle install ~/.dotfiles/Brewfile
 # configure vscode
 /bin/bash ./scripts/codium_config.sh
 
-# todo: auto install jetbrains mono/mono nerd font
-
 # update preferences
 /bin/bash ./scripts/defaults.sh
 
