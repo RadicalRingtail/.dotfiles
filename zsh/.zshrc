@@ -9,3 +9,4 @@ PROMPT="%K{4} %B%(?.√.X)%b %k%F{4}%K{8}%f %~ %k%F{8}%f "
 
 alias mp3-dl="yt-dlp -x --audio-format mp3" # for easy audio downloading
 alias youtube-dl="yt-dlp" # i still instinctively type this sometimes so im adding a failsafe for my monkey brain
+alias yt-dlp-short="yt-dlp -o ~/Movies/youtube-dl/%(webpage_url)s.%(ext)s" # if file name is too long
