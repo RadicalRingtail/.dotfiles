@@ -1,6 +1,6 @@
 # Ringtail's Dotfile Repo
 
-A personal repo for all my dotfiles and configurations.
+A personal repo for all my dotfiles and configurations. (macOS only)
 
 # Setup
 
