@@ -13,8 +13,9 @@ fi
 # install packages from Brewfile
 brew bundle install ~/.dotfiles/Brewfile
 
-# configure vscode
+# configure apps
 /bin/bash ./scripts/codium_config.sh
+/bin/bash ./scripts/blender_config.sh
 
 # update preferences
 /bin/bash ./scripts/defaults.sh
