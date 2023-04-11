@@ -4,16 +4,19 @@
 
 # Menu Bar
 defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE MMM d  h:mm a\""
+killall SystemUIServer
 
 # Dock 
 defaults write com.apple.Dock "autohide" -bool "true"
 defaults write com.apple.Dock "mineffect" -string "genie"
+killall Dock
 
 # Finder
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true"
 defaults write com.apple.Finder "AppleShowAllFiles" -bool "true"
 defaults write com.apple.Finder "FXEnableExtensionChangeWarning" -bool "false"
 defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv"
+killall Finder
 
 # Terminal (theres most likely a better way to do this)
 #curl 'https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VS%20Code%20Dark%20Plus.terminal' -o theme.terminal

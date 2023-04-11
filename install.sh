@@ -8,6 +8,7 @@ xcode-select --install
 if ! command -v brew &> /dev/null 
 then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # install packages from Brewfile
@@ -25,6 +26,7 @@ touch ~/.hushlogin
 
 # symlinks
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/yt-dlp/yt-dlp.conf ~/yt-dlp.conf
 ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
