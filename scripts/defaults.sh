@@ -18,6 +18,9 @@ defaults write com.apple.Finder "FXEnableExtensionChangeWarning" -bool "false"
 defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv"
 killall Finder
 
+# TextEdit
+defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
+
 # Terminal (theres most likely a better way to do this)
 #curl 'https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VS%20Code%20Dark%20Plus.terminal' -o theme.terminal
 #open theme.terminal
