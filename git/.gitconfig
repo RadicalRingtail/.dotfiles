@@ -3,6 +3,6 @@
 	name = Ringtail
 [core]
 	excludesFile = .DS_Store
-	editor = codium --wait
+	editor = code --wait
 [init]
 	defaultBranch = master
