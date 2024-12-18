@@ -9,3 +9,7 @@ PROMPT="%K{4} %B%(?.√.X)%b %k%F{4}%K{8}%f %~ %k%F{8}%f "
 
 alias mp3-dl="yt-dlp -x --audio-format mp3" # for easy audio downloading
 alias youtube-dl="yt-dlp" # i still instinctively type this sometimes so im adding a failsafe for my monkey brain
+alias gallery-dl="gallery-dl --cookies-from-browser firefox"
+
+# Created by `pipx` on 2024-09-17 21:04:07
+export PATH="$PATH:/Users/ringtail/.local/bin"
